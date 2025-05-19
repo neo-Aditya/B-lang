@@ -44,11 +44,6 @@ longToString(long) {
     return (output);
 }
 
-floatToString(long) {
-    
-    return (output);
-}
-
 toString(s, x1) {
     extrn putchar;
     auto ptr;
