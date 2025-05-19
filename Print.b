@@ -36,11 +36,17 @@ longToString(long) {
             long = long / 10;
         }
         while (i >= 0) {
-            lchar(output, i, char((strlen - i - 1)))
+            lchar(output, strlen - i - 1, char((i)));
+            i--;
         }
     }
     free(arr);
-    return output;
+    return (output);
+}
+
+floatToString(long) {
+    
+    return (output);
 }
 
 toString(s, x1) {
